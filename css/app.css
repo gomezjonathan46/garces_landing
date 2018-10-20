@@ -18,12 +18,19 @@ body {
 }
 
 .bg-light {
-  background-color: #000000 !important;
-  /* opacity: 0.6; */
+  background-color: rgba(0, 0, 0, 0.5) !important;
   /* TODO: find a way to make the background transparent without losing its color saturation */
 }
 
 .navbar-light .navbar-toggler {
   color: #ffffff;
   border-color: #ffffff;
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
 }
