@@ -1,0 +1,23 @@
+body {
+  font-family: 'Niramit', 'Myriad Pro', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ff000f;
+  /* TODO: apply image when hovering over a nav-item */
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-light {
+  background-color: #000000 !important;
+  /* opacity: 0.6; */
+  /* TODO: find a way to make the background transparent without losing its color saturation */
+}
