@@ -19,7 +19,6 @@ body {
 
 .bg-light {
   background-color: rgba(0, 0, 0, 0.5) !important;
-  /* TODO: find a way to make the background transparent without losing its color saturation */
 }
 
 .navbar-light .navbar-toggler {
