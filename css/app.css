@@ -48,13 +48,12 @@ nav {
 }
 
 /* This new class stops the white space between the divs and is part of the solution to stopping the divs from hiding
-behind the carousel, which occured because of position: absolute. This will be applied to the rest of the divs in the
-site to shift everything upward equal to the pixel height of the navbar. */
+behind the carousel, which occured because of position: absolute. This will be applied to the the body to offset
+everything in the page and the nav will be adjust accordingly. */
 .reposition {
   position: relative;
   top: -88px;
-  /* TODO: Check if this eliminates white space at the end of the page */
-  /* margin-bottom: -88px; */
+  margin-bottom: -60px;
 }
 
 .services-section {
