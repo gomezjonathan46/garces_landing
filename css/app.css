@@ -60,6 +60,7 @@ site to shift everything upward equal to the pixel height of the navbar. */
 .services-section {
   background-color: #ff9735;
   padding-top: 2%;
+  padding-bottom: 60px;
 }
 
 .garces-intro {
@@ -69,7 +70,7 @@ site to shift everything upward equal to the pixel height of the navbar. */
 hr {
   border: none;
   display: block;
-  background-color: #ff0008;
+  background-color: #ff000f;
   overflow: hidden;
   height: 5px;
   width: 50px;
@@ -82,6 +83,7 @@ h1 {
 
 p {
   color: white;
+  font-size: large;
 }
 
 .garces-photo-and-signature {
@@ -92,6 +94,53 @@ p {
 .signature {
   padding-left: 18%;
   padding-top: 2%;
+}
+
+.info-and-events-section {
+  padding-top: 10%;
+}
+
+h2 {
+  color: #ff000f;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descriptions {
+  max-width: 319px;
+}
+
+button {
+  border: none;
+  background-color: #ff000f;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 60px;
+}
+
+button:hover {
+  background-color: #ec000e;
+  cursor: pointer;
+}
+
+.arrow {
+	position: relative;
+	background: #ff9735;
+}
+.arrow:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	border-top-color: #ff9735;
+	border-width: 20px;
+	margin-left: -20px;
+  margin-top: 59px;
 }
 
 @media screen and (max-width: 545px) {
