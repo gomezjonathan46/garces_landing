@@ -145,6 +145,28 @@ button:hover {
   margin-top: 59px;
 }
 
+.media-section {
+  background-color: #ff000f;
+  padding: 80px;
+}
+
+.media-section-description {
+  color: white;
+  font-weight: 900;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
 @media screen and (max-width: 545px) {
   .garces-photo {
     width: 80%;
@@ -158,5 +180,23 @@ button:hover {
 @media screen and (max-width: 768px) {
   .garces-photo-and-signature {
     padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .placeholder-image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .media-section-image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .placeholder-image {
+    margin-top: 15%;
   }
 }
