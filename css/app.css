@@ -2,6 +2,10 @@ body {
   font-family: 'Niramit', 'Myriad Pro', sans-serif;
 }
 
+nav {
+  z-index: 100;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   text-align: right;
@@ -27,17 +31,28 @@ body {
 }
 
 .carousel {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  z-index: -2;
 }
 
 .carousel-logo {
-  z-index: -1;
+  z-index: 1;
+  position: absolute;
+  top: 10%;
+  left: 11%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 5%;
+}
+
+/* This new class stops the white space between the divs and is part of the solution to stopping the divs from hiding
+behind the carousel, which occured because of position: absolute. This will be applied to the rest of the divs in the
+site to shift everything upward equal to the pixel height of the navbar. */
+.reposition {
+  position: relative;
+  top: -88px;
+}
+
+.services-section {
+  background-color: #ff9735;
 }
