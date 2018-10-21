@@ -77,14 +77,35 @@ hr {
 
 h1 {
   color: white;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 p {
   color: white;
 }
 
-.signature {
-  padding-left: 15%;
+.garces-photo-and-signature {
+  padding-left: 5%;
   padding-top: 2%;
+}
+
+.signature {
+  padding-left: 18%;
+  padding-top: 2%;
+}
+
+@media screen and (max-width: 545px) {
+  .garces-photo {
+    width: 80%;
+  }
+
+  .signature {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .garces-photo-and-signature {
+    padding-left: 10%;
+  }
 }
