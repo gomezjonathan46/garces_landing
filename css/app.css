@@ -33,3 +33,9 @@ body {
   width: 100%;
   z-index: -1;
 }
+
+.carousel-logo {
+  position: fixed;
+  top: 25%;
+  left: 10%;
+}
