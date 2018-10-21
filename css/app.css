@@ -59,4 +59,32 @@ site to shift everything upward equal to the pixel height of the navbar. */
 
 .services-section {
   background-color: #ff9735;
+  padding-top: 2%;
+}
+
+.garces-intro {
+  padding-left: 10%;
+}
+
+hr {
+  border: none;
+  display: block;
+  background-color: #ff0008;
+  overflow: hidden;
+  height: 5px;
+  width: 50px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+}
+
+.signature {
+  padding-left: 15%;
+  padding-top: 2%;
 }
