@@ -178,6 +178,12 @@ footer {
 
 .social-media-icons {
   width: 86px;
+  padding-top: 2px;
+}
+
+.footer-section-header {
+  color: #ff000f;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 545px) {
