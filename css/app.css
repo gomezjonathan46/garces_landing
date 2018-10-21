@@ -111,7 +111,7 @@ h2 {
   max-width: 319px;
 }
 
-button {
+.learn-more-button {
   border: none;
   background-color: #ff000f;
   color: white;
@@ -122,7 +122,7 @@ button {
   padding-bottom: 5px;
 }
 
-button:hover {
+.learn-more-button:hover {
   background-color: #ec000e;
   cursor: pointer;
 }
@@ -184,6 +184,19 @@ footer {
 .footer-section-header {
   color: #ff000f;
   font-weight: 900;
+}
+
+.subscribe-button {
+  background-color: black;
+  color: white;
+  width: 100px;
+  border: none;
+  margin-top: 5px;
+}
+
+.subscribe-button:hover {
+  background-color: #ec000e;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 545px) {
