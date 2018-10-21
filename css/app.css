@@ -167,6 +167,19 @@ h3 {
   font-size: 40px;
 }
 
+footer {
+  margin-top: 30px;
+}
+
+.content-in-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons {
+  width: 86px;
+}
+
 @media screen and (max-width: 545px) {
   .garces-photo {
     width: 80%;
