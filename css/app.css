@@ -282,6 +282,10 @@ footer {
     position: relative;
     top: 0;
   }
+
+  footer {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 435px) {
