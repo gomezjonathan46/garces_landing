@@ -9,7 +9,7 @@ Come see what we have to offer!
 
 ## Background
 
-Thanks to Will Murdoch and the Brownstein Group, I was provided the images to complete this landing page. I used the mockup as a guiding template to create and style this landing page. A mobile design was not provided, so I had the opportunity to get creative!
+Thanks to Will Murdoch and the Brownstein Group, I was provided the images to complete this landing page. I used the mockup as a guiding template to create and style this landing page. A mobile design was not provided, so I had the opportunity to get creative! This project meets W3C standards, using markup and css validation. 
 
 ## Dependencies
 
