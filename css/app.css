@@ -8,6 +8,20 @@ nav {
   top: 0;
 }
 
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.nav-link-img {
+  visibility: hidden;
+}
+
+.nav-link:hover .nav-link-img {
+  visibility: visible;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   text-align: right;
