@@ -106,10 +106,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* .img-link {
-  cursor: pointer;
-} */
-
 .expand-animation {
   cursor: pointer;
   transition: transform .5s; /* Animation time*/
@@ -131,12 +127,14 @@ h2 {
   padding-right: 40px;
   margin-bottom: 60px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .learn-more-button:hover {
   background-color: #ec000e;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 .arrow {
@@ -204,11 +202,16 @@ footer {
   width: 100px;
   border: none;
   margin-top: 5px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .subscribe-button:hover {
   background-color: #ec000e;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 545px) {
