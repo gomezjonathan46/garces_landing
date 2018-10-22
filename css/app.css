@@ -61,6 +61,17 @@ nav {
   padding-top: 5%;
 }
 
+.carousel-navigator {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  z-index: 80;
+  position: relative;
+  top: -120px;
+  height: 120px;
+  margin-bottom: -120px;
+  width: 110px;
+  margin-left: 18%;
+}
+
 /* This new class stops the white space between the divs and is part of the solution to stopping the divs from hiding
 behind the carousel, which occured because of position: absolute. This will be applied to the the body to offset
 everything in the page and the nav will be adjust accordingly. */
