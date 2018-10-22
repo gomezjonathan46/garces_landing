@@ -78,6 +78,16 @@ nav {
   width: 60px;
 }
 
+.carousel-navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-p {
+  font-size: 15px;
+}
+
 /* This new class stops the white space between the divs and is part of the solution to stopping the divs from hiding
 behind the carousel, which occured because of position: absolute. This will be applied to the the body to offset
 everything in the page and the nav will be adjust accordingly. */
