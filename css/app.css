@@ -98,6 +98,8 @@ hr {
   overflow: hidden;
   height: 5px;
   width: 50px;
+  margin-left: 0px;
+  text-align: left;
 }
 
 h1 {
