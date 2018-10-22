@@ -76,6 +76,8 @@ nav {
   padding-left: 20px;
   padding-right: 20px;
   width: 60px;
+  /* TODO: Remove z-index once the counter is working */
+  z-index: -20;
 }
 
 .carousel-navigator {
@@ -84,9 +86,17 @@ nav {
   align-items: center;
 }
 
-.counter-p {
+.counter {
+  color: white;
   font-size: 15px;
 }
+
+.test {
+  display: none;
+}
+/* .active {
+  color: red;
+} */
 
 /* This new class stops the white space between the divs and is part of the solution to stopping the divs from hiding
 behind the carousel, which occured because of position: absolute. This will be applied to the the body to offset
