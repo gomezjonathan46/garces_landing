@@ -74,6 +74,13 @@ everything in the page and the nav will be adjust accordingly. */
   background-color: #ff9735;
   padding-top: 2%;
   padding-bottom: 60px;
+  /* TODO: apply slant to top of section. Potential solution below. Credit to https://kilianvalkhof.com/2017/design/sloped-edges-with-consistent-angle-in-css/ */
+  /* clip-path: polygon( */
+    /* 100% 100%, /* left top */
+    /* 0 100%, /* right top */
+    /* 0 0, /* right bottom */
+    /* 100% calc(100% - 6vw) /* left bottom */
+  /* ); */
 }
 
 .garces-intro {
