@@ -220,8 +220,13 @@ footer {
   margin: 0px;
 }
 
-.map-link:hover {
+.footer-anchor {
+  color: black;
+}
+
+.footer-anchor:hover {
   text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 545px) {
