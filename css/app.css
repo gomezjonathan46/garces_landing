@@ -214,6 +214,16 @@ footer {
   text-decoration: none;
 }
 
+.map-link {
+  color: black;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.map-link:hover {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 545px) {
   .garces-photo {
     width: 80%;
