@@ -277,15 +277,6 @@ footer {
     max-width: 100%;
   }
 
-  .bg-light {
-    background-color: rgba(0, 0, 0, 1) !important;
-  }
-
-  .reposition {
-    position: relative;
-    top: 0;
-  }
-
   footer {
     margin-bottom: 30px;
   }
@@ -304,5 +295,14 @@ footer {
 @media screen and (max-width: 992px) {
   .placeholder-image {
     margin-top: 15%;
+  }
+
+  .bg-light {
+    background-color: rgba(0, 0, 0, 1) !important;
+  }
+
+  .reposition {
+    position: relative;
+    top: 0;
   }
 }
